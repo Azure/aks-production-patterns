@@ -33,4 +33,4 @@ Flux Operator
 
 Azure
 
-* [Azure ARC for Kubernetes - Coming Soon]()
+* [Azure ARC for Kubernetes](https://azure.microsoft.com/en-us/resources/videos/kubernetes-app-management-with-azure-arc/)

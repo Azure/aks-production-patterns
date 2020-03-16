@@ -20,7 +20,7 @@ Your third challenge is to detect when **Pods Restart**. Similar to Nodes Not Re
 
 ### Infrastructure Monitoring #4
 
-Your fourth challenge is to detect when **Deployments are Not Ready**. This is simlar to Pods restarting, but how do you detect a workload deployment problem if the Pod does not even startup? Typical problems in this area are Pods not able to be scheduled due to Cluster resource capacity or a desired Node not found. 
+Your fourth challenge is to detect when **Deployments are Not Ready**. This is simlar to Pods restarting, but how do you detect a workload deployment problem if the Pod does not even startup? Typical problems in this area are Pods not able to be scheduled due to Cluster resource capacity or a desired Node not found.
 
 ## Success Criteria
 

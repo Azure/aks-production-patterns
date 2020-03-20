@@ -2,7 +2,7 @@
 
 The observability section is all about what things to log and monitor as part of operating an AKS cluster day to day.
 
-## Challenge
+## Exercise
 
 You've been tasked with improving the observability of your existing AKS clusters. There are mutiple clusters and the organization does not have a great line of sight into what is working, and what is not working correctly within the cluster. The ask from the CTO is to create a dashboard that provides the necessary visibility into the AKS clusters so that proactive vs reactive operations can take place.
 

@@ -1,8 +1,8 @@
 # Cluster Management
 
-This clsuter management section is all about AKS Cluster Management. The main focus areas are managing multiple clusters with a GitOps approach, patching clusters, and how to manage upgrading.
+This cluster management section is all about AKS Cluster Management. The main focus areas are managing multiple clusters with a GitOps approach, patching clusters, and how to manage upgrading.
 
-## Challenge
+## Exercise
 
 You've been tasked with improving the managment of your existing AKS clusters. There are mutiple clusters and they are not all configured in the same way which means that not all clusters have everything the organization needs to operate them. The ask from the CTO and Security Team is to ensure that all clusters have the necessary software the organization needs, this includes run-time monitoring software and Namespace RBAC + Limits + Quotas.
 

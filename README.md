@@ -40,35 +40,44 @@ The following is a sample agenda of what a 2-day engagement might look like.
   - Future – Azure Arc for Kubernetes
 - Observability (~ 1/2 Day)
   - Logging & Monitoring Tooling at Cluster/Node/Pod Levels
+  - Logs vs Metrics vs Dashboarding
+  - Azure Monitor for Containers
+  - Prometheus + Grafana
   - Alerting (Logs, Metrics, Policy)
   - Threat detection
   - App Telemetry
   - Observability Hands-on Challenge
-  - Future – Azure Security Center Integration
 
 ### Day 2
 
 - Security (~ 1/2 Day)
+  - Kubernetes Policy (OPA + Gatekeeper)
   - Secrets Management – AAD Pod Identity + Key Vault
   - Image Management – Build-time & Run-time Scanning
-  - Azure Policy with OPA / Gatekeeper
   - Security Hands-on Challenge
   - Future – AKS + Azure Policy + Azure Container Registry
 - Service Mesh (~ 1/2 Day)
+  - Do I need it?
   - Capabilities
   - Planning for Service Mesh
-  - Service Mesh Interface (SMI)
   - Service Mesh Hands-on Challenge
-- Patterns to Consider (1 Hour)
-  - CI/CD (Blue/Green, Canary, etc.)
-  - Serverless, KEDA
-  - Cloud Native ML / MLOps on Kubernetes
+  - Service Mesh Interface (SMI)
 - Wrap-up (30 mins)
+  - Goals & Summary
   - Share Lessons Learned
 
 ## Prerequisites
 
 The following are the requirements to **start**.
+
+****************************************************************************
+
+- **REQUIRED: AKS Cluster Provisioned in an Azure Subscription before day of Workshop**
+
+  - **Either a basic cluster using the basic AKS cluster bootstrapping script**
+  - **Or the advanced networking cluster with Egress and Ingress configured**
+
+****************************************************************************
 
 - Azure Account [Azure Portal](https://portal.azure.com)
 
@@ -92,10 +101,6 @@ The following are the requirements to **start**.
 - GitHub Account [GitHub Account](https://help.github.com/en/github/getting-started-with-github/signing-up-for-a-new-github-account)
 
   - Required for GitOps Approach to Multi-Cluster Management
-
-- Terraform [Terraform Download](https://www.terraform.io/downloads.html)
-
-  - Minimum Version: v0.12.21
 
 - Docker Community Edition (CE)[Install CE](https://docs.docker.com/v17.09/engine/installation/)
 
